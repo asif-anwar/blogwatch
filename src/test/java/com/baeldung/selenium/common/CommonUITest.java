@@ -222,13 +222,7 @@ public class CommonUITest extends BaseUISeleniumTest {
     @Test
     @Tag("screenShotTest")
     public final void screenShotTest() throws IOException {
-        page.setUrl(page.getBaseURL() + "/jackson");
-        
-        TestUtils.sleep(30000);
-
-        page.loadUrl();
-
-        TestUtils.takeScreenShot(page.getWebDriver());
+        System.out.println("\u001B[32m Starting the color test \033[0m");
        
     }
 
